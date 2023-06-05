@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+h1 {
+  font-size: 25px;
+  padding: 0;
+  margin: 0;
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #999999;
+}
+main {
+  width: 1000px;
+  background-color: #fefefe;
+  height: auto;
+  overflow-y: auto;
+}
+main > * {
+  padding: 10px;
+}
+.main_heading {
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+  padding: 10px 0;
+}
+.topic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  border-bottom: 1px solid #000;
+}
+.topic h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  color: #000c63;
+}
+.topic span {
+  font-weight: 500;
+  font-size: 20px;
+  text-decoration: underline;
+}
+.members {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #000;
+}
+.descriptions {
+  border-bottom: 1px solid #000;
+  padding-bottom: 25px;
+  margin-top: 5px;
+}
+.descriptions h2 {
+  color: #000c63;
+  padding: 10px 0 5px 0;
+  font-style: italic;
+}
+.descriptions p {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #737c85;
+  line-height: 1.85714286em;
+}
+.descriptions h4 {
+  font-size: 1.1rem;
+  margin-top: 10px;
+  font-weight: 400;
+}
+@media screen and (max-width: 768px) {
+  main {
+    width: 100vw;
+  }
+  h1 {
+    font-size: 20px;
+  }
+}
