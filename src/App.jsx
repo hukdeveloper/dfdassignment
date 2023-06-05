@@ -1,7 +1,7 @@
 import "./app.css";
 import { MdTopic } from "react-icons/md";
 import { AiOutlineLine } from "react-icons/ai";
-import Card from "./components/card";
+import Card from "./components/Card";
 
 function App() {
   return (
