@@ -44,6 +44,17 @@ main > * {
   color: #fff;
   padding: 10px 0;
 }
+.main_headings {
+  color: #000c63;
+  font-style: italic;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  gap: 5px;
+}
+.main_headings svg {
+  font-size: 40px;
+}
 .topic {
   display: flex;
   justify-content: center;
