@@ -7,7 +7,7 @@ import Card from "./components/Card";
 function App() {
   return (
     <main>
-      <h1 className="main_heading">Assginment - Formal Methods</h1>
+      <h1 className="main_heading">Assignment - Formal Methods</h1>
       <div className="topic">
         <h2>
           <MdTopic />
